@@ -1,0 +1,31 @@
+.login_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.login_container > div {
+  width: 50%;
+  margin: 20px;
+}
+
+.FB_heading {
+  width: 35%;
+}
+.FB_heading h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(62, 110, 241);
+}
+.FB_heading p {
+  font-size: 30px;
+}
+
+.signIn_side {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
