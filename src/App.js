@@ -5,7 +5,8 @@ import Page from "./Components_one/Page/Login";
 function App() {
   return (
     <div className="App">
-      <Page />
+      {/* <Page /> */}
+      <Navigation />
     </div>
   );
 }

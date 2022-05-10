@@ -29,7 +29,12 @@ function Login() {
                 className="input"
               />
               <input type="submit" value="Log In" id="log" className="input" />
-              <button></button>
+              <input
+                type="button"
+                value="forgotten password"
+                id="for"
+                className="input"
+              />
               <input
                 type="button"
                 value="Create New Account"
@@ -37,10 +42,10 @@ function Login() {
                 className="input"
               />
             </div>
-            {/* <p>
+            <p>
               <span id="big">Create a page</span> for celebrity, brand or
               business.
-            </p> */}
+            </p>
           </form>
         </div>
       </div>

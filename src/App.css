@@ -1,3 +1,8 @@
 * {
-    background-color:rgb(239, 241, 243);
+  /* background-color:rgb(239, 241, 243); */
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  --fbcolor: #4267b2;
 }

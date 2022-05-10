@@ -23,9 +23,11 @@
 .FB_heading p {
   font-size: 30px;
 }
-
+.login_page {
+  /* width: 100%; */
+}
 .signIn_side {
   background-color: white;
-  display: flex;
+  display: block;
   justify-content: space-between;
 }
