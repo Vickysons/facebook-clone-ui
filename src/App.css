@@ -1,8 +1,27 @@
 * {
-  /* background-color:rgb(239, 241, 243); */
+  /* background-color: rgb(239, 241, 243); */
   padding: 0px;
   margin: 0px;
 }
 body {
   --fbcolor: #4267b2;
+  --lightgray: rgb(239, 241, 243);
+  background-color: var(--lightgray);
+  --navcolor: white;
+  --hovercolor: rgb(219, 221, 223);
+}
+.home_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+}
+.sidebar {
+  flex: 0.3;
+}
+.feeds {
+  flex: 0.4;
+}
+.widget {
+  flex: 0.3;
 }

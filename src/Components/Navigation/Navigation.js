@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SmartToyIcon from "@mui/icons-material/SmartToy";
 import ChatIcon from "@mui/icons-material/Chat";
 import { FBlogo } from "../../import";
-import Profile from "../profile";
+import Profile from "../Profile/profile";
 import "./Navigation.css";
 
 function Navigation() {
@@ -29,7 +29,10 @@ function Navigation() {
         </div>
 
         <div className="navigation_right">
-          <Profile />
+          <h4>Find Friends</h4>
+          <div className="both">
+            <Profile text="victor" />
+          </div>
           <AppsIcon />
           <ChatIcon />
           <NotificationsIcon />
