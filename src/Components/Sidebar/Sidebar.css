@@ -1,7 +1,23 @@
-.sidebar_container {
-  width: 100%;
+.mui .MuiSvgIcon-root {
+  border-radius: 50%;
+  background-color: var(--hovercolor);
+  padding: 4px;
+  margin-right: 8px;
 }
-.sidebar_img {
-  width: 35%;
-  background-color: blue;
+.mui {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.sidebar_img p {
+  margin-top: 40px;
+  color: gray;
+  font-size: 12px;
+  width: 80%;
+}
+.mui:hover {
+  background-color: var(--hovercolor);
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
 }

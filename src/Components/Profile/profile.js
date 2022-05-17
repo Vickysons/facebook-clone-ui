@@ -7,7 +7,7 @@ function profile({ text }) {
     <>
       <div className="picture">
         <img src={ProfilePhoto} alt="profile" />
-        <h4>{text}</h4>
+        <h3>{text}</h3>
       </div>
     </>
   );

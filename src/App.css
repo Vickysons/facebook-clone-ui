@@ -9,6 +9,7 @@ body {
   background-color: var(--lightgray);
   --navcolor: white;
   --hovercolor: rgb(219, 221, 223);
+  font-family: sans-serif;
 }
 .home_container {
   display: flex;
@@ -17,11 +18,11 @@ body {
   padding: 10px;
 }
 .sidebar {
-  flex: 0.3;
+  flex: 0.2;
 }
 .feeds {
-  flex: 0.4;
+  flex: 0.5;
 }
 .widget {
-  flex: 0.3;
+  flex: 0.2;
 }
