@@ -1,0 +1,36 @@
+.Feeds {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: 30px;
+}
+.feed_story_img {
+  position: absolute;
+  width: 8%;
+  height: 25vh;
+  border-radius: 10px;
+}
+.feed_story_img:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
+}
+.feed_story_user {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 20px;
+  left: 20px;
+  outline: 4px solid var(--fbcolor);
+}
+.feeds_story > h4 {
+  position: relative;
+  width: 100px;
+  top: 100px;
+  left: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow-wrap: break-word;
+}

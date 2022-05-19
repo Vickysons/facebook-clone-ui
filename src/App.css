@@ -4,7 +4,7 @@
   margin: 0px;
 }
 body {
-  --fbcolor: #4267b2;
+  --fbcolor: #2e89ff;
   --lightgray: rgb(239, 241, 243);
   background-color: var(--lightgray);
   --navcolor: white;
