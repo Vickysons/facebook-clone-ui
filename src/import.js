@@ -18,6 +18,9 @@ import Sis from "./images/sis.jpeg";
 import Cute from "./images/cute.jpeg";
 import Meme from "./images/meme.jpg";
 import Bro from "./images/bro.jpeg";
+import Live from "./images/live.svg";
+import Pict from "./images/pict.png";
+import Emoji from "./images/emoji.webp";
 
 export {
   FBlogo,
@@ -40,4 +43,7 @@ export {
   Sis,
   Meme,
   Bro,
+  Live,
+  Pict,
+  Emoji,
 };

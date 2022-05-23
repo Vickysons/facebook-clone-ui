@@ -19,10 +19,13 @@ body {
 }
 .sidebar {
   flex: 0.2;
+  background-color: blueviolet;
 }
 .feeds {
   flex: 0.5;
+  /* background-color: blue; */
 }
 .widget {
   flex: 0.2;
+  background-color: red;
 }
