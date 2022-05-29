@@ -21,6 +21,15 @@ import Bro from "./images/bro.jpeg";
 import Live from "./images/live.svg";
 import Pict from "./images/pict.png";
 import Emoji from "./images/emoji.webp";
+import Messi from "./images/messi.jpg";
+import Client from "./images/client 1.jfif";
+import ClientTwo from "./images/client 2.jfif";
+import ClientThree from "./images/client3.jfif";
+import Cars from "./images/cars.jpg";
+import Photo from "./images/photo.jpg";
+import Unsplash from "./images/unsplash.jpg";
+import Likey from "./images/likey.svg";
+import Lovey from "./images/lovey.svg";
 
 export {
   FBlogo,
@@ -46,4 +55,13 @@ export {
   Live,
   Pict,
   Emoji,
+  Messi,
+  Client,
+  ClientTwo,
+  ClientThree,
+  Cars,
+  Photo,
+  Unsplash,
+  Likey,
+  Lovey,
 };
